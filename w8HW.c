@@ -3,8 +3,8 @@
 void name(void)
 {
 
-	printf("Šw¶–¾”Ô†: 1CJM2221\n");
-	printf("–¼: ƒAƒ‰ƒ€@ƒTƒ~ƒn\n");
+	printf("å­¦ç”Ÿæ˜ç•ªå·: 00000000\n");
+	printf("æ°å: abcã€€def\n");
 
 	return ;
 }
@@ -12,7 +12,7 @@ void name(void)
 void ave1(double a, double b, double c)
 {
 
-	printf("•½‹Ï%lf\n",(a+b+c)/3.0);
+	printf("å¹³å‡ï¼%lf\n",(a+b+c)/3.0);
 
 	return ;
 }
@@ -30,13 +30,13 @@ int main(void)
 
 	printf("\n");
 
-	printf("1ŒÂ–Ú‚ÌÀ”‚ÍH\n");
+	printf("1å€‹ç›®ã®å®Ÿæ•°ã¯ï¼Ÿ\n");
 	scanf("%lf",&num1);
 
-	printf("2ŒÂ–Ú‚ÌÀ”‚ÍH\n");
+	printf("2å€‹ç›®ã®å®Ÿæ•°ã¯ï¼Ÿ\n");
 	scanf("%lf",&num2);
 
-	printf("3ŒÂ–Ú‚ÌÀ”‚ÍH\n");
+	printf("3å€‹ç›®ã®å®Ÿæ•°ã¯ï¼Ÿ\n");
 	scanf("%lf",&num3);
 
 	printf("\n");
@@ -46,7 +46,7 @@ int main(void)
 	printf("\n");
 
 	x=ave2(num1, num2, num3);
-	printf("•½‹Ï%lf\n",x);
+	printf("å¹³å‡ï¼%lf\n",x);
 
     	return 0;
 }
